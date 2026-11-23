@@ -90,18 +90,23 @@ The proposed hybrid architecture consists of:
 - Execution Environment: Google Colab
 - Hardware: NVIDIA Tesla T4 GPU (16 GB)
 
-## Technologies & Tools Used
+### Technologies & Tools Used
 
 - **Programming Language:** Python
 - **Deep Learning Framework:** PyTorch
-- **Signal Processing:** SciPy
+- **Neural Network Architecture:** 1D Convolutional Neural Network (CNN), Multi-Head Self-Attention
+- **Signal Processing:** SciPy, Digital Bandpass Filtering, R-Peak Detection, ECG Signal Segmentation
 - **Data Manipulation:** NumPy, Pandas
 - **Data Visualization:** Matplotlib, Seaborn
 - **Machine Learning Utilities:** Scikit-learn
-- **ECG Dataset:** MIT-BIH Arrhythmia Database
-- **Development Environment:** Google Colab, Jupyter Notebook,VScode
-- **Hardware Acceleration:** CUDA, NVIDIA Tesla T4 GPU
-- **Version Control:** Git, GitHub
+- **Dataset:** MIT-BIH Arrhythmia Database (PhysioNet)
+- **Data Preprocessing:** Signal Normalization, Data Cleaning, Feature Preparation
+- **Model Training:** Adam Optimizer, Class-Weighted Categorical Cross-Entropy, Dropout Regularization
+- **Model Evaluation:** Accuracy, Precision, Recall, F1-Score, Confusion Matrix, ROC-AUC, Matthews Correlation Coefficient (MCC), Cohen's Kappa
+- **Development Environments:** Google Colab, Jupyter Notebook, Visual Studio Code (VS Code)
+- **Hardware Acceleration:** CUDA, NVIDIA Tesla T4 GPU (16 GB VRAM)
+- **Version Control & Collaboration:** Git, GitHub
+- **Research & Documentation:** IEEE Conference Research, Technical Documentation
 
 ## Model Performance
 
