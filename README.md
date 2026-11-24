@@ -93,6 +93,7 @@ The proposed hybrid architecture consists of:
 ### Technologies & Tools Used
 
 - **Programming Language:** Python
+- **Primary Development Environment (IDE):** Visual Studio Code (VS Code)
 - **Deep Learning Framework:** PyTorch
 - **Neural Network Architecture:** 1D Convolutional Neural Network (CNN), Multi-Head Self-Attention
 - **Signal Processing:** SciPy, Digital Bandpass Filtering, R-Peak Detection, ECG Signal Segmentation
@@ -103,11 +104,10 @@ The proposed hybrid architecture consists of:
 - **Data Preprocessing:** Signal Normalization, Data Cleaning, Feature Preparation
 - **Model Training:** Adam Optimizer, Class-Weighted Categorical Cross-Entropy, Dropout Regularization
 - **Model Evaluation:** Accuracy, Precision, Recall, F1-Score, Confusion Matrix, ROC-AUC, Matthews Correlation Coefficient (MCC), Cohen's Kappa
-- **Development Environments:** Google Colab, Jupyter Notebook, Visual Studio Code (VS Code)
+- **Development & Experimentation Tools:** Visual Studio Code (VS Code), Jupyter Notebook, Google Colab
 - **Hardware Acceleration:** CUDA, NVIDIA Tesla T4 GPU (16 GB VRAM)
 - **Version Control & Collaboration:** Git, GitHub
 - **Research & Documentation:** IEEE Conference Research, Technical Documentation
-
 ## Model Performance
 
 The proposed CNN-Attention model achieved the following evaluation results:
